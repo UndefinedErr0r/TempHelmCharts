@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: survey-frontend-image
-        image: rdlgmu/survey-frontend:$BUILD_NUMBER
+        image: rdlgmu/survey-frontend:8
         ports:
         - containerPort: 80
         
@@ -33,4 +33,5 @@ spec:
   - name: http
     protocol: TCP
     port: 80
-    targetPort: 8080         
+    targetPort: 8080
+        
