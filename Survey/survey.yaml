@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: survey-frontend-image
-        image: rdlgmu/survey-frontend:20
+        image: rdlgmu/survey-frontend:21
         ports:
         - containerPort: 80
         
